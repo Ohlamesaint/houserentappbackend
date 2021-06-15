@@ -38,6 +38,7 @@ app.use((err, req, res, next) => {
     })
 })
 
+console.log("yes");
 
 app.listen(process.env.PORT || 8000, () => {
     console.log(`app is listen in Port ${PORT}`)
